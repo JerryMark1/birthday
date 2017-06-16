@@ -1,5 +1,24 @@
-$(function () {
-    
+$(function () {  
+    //播放音乐
+    var audio = $('#myaudio');
+    var isPlaying = false;
+    function playAudio() {
+        var audio = $('#myaudio');
+        if (audio.attr('src') == undefined) {
+            audio.attr('src', audio.data('src'));
+        }
+        audio[0].play();
+        isPlaying = true;
+    }
+    playAudio();
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
+            network = e.err_msg.split(":")[1];  //结果在这里
+        playAudio();
+        });
+    }, false);
+
+
     var li = $('.img-li');
     var leng = li.length;
     var i=0;
@@ -7,12 +26,10 @@ $(function () {
         if ((leng - 1) > i) {
             setTimeout(function () {
                 var a=new animateFct(i);
-                console.log(i);
                 feiru();
                 i++;
             }, 4000);
         } else {
-			$('.begin').text('比较简单，嘻嘻!');
 			$('.begin').fadeIn();
             return;
         }
@@ -44,10 +61,9 @@ $(function () {
         }
         li.eq(i).stop().animate(data,3000);
     }
-	var beg=$('.begin');
-    beg.click(function(){
+
         $(this).hide();
-        $('audio')[0].play();
+        // $('audio')[0].play();
         feiru();
-    });
+
 })
