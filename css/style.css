@@ -1,3 +1,6 @@
+body{
+	font-size: 16px;
+}
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span {
     background: #fff;
@@ -132,8 +135,8 @@
 	background-color:#FFF;
 	border-radius: 25px;
 	position: absolute;
-	left: 48%;
-	bottom: 50%;
+	left: 50%;
+	bottom: 45%;
 	margin-bottom:50%;
 	overflow: hidden;
 	transform-origin:center bottom;
@@ -313,7 +316,7 @@
 }
 .ly-stxt01 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
@@ -341,7 +344,7 @@
 
 .ly-stxt02 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
@@ -370,7 +373,7 @@
 
 .ly-stxt03 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
@@ -399,7 +402,7 @@
 
 .ly-stxt04 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
@@ -428,7 +431,7 @@
 
 .ly-stxt05 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
@@ -457,7 +460,7 @@
 
 .ly-stxt06 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -485,7 +488,7 @@
 
 .ly-stxt07 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -514,7 +517,7 @@
 
 .ly-stxt08 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -543,7 +546,7 @@
 
 .ly-stxt09 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -572,7 +575,7 @@
 
 .ly-stxt10 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 14px;
 	font-color: #000;
 	position: relative;
 	right: 5%;
@@ -662,8 +665,9 @@
 
 /* 盒子 */
 .ly-box11 {
-	width: 30%;
-	height: 600px;
+	font-size: 14px;
+	width: 77%;
+	height: 500px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -876,8 +880,8 @@
 
 /* 盒子 */
 .ly-box21 {
-	width: 15%;
-	height: 600px;
+	width: 77%;
+	height: 500px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -1211,8 +1215,8 @@
 }
 /* 盒子 */
 .ly-box31 {
-	width: 30%;
-	height: 600px;
+	width: 77%;
+	height: 500px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -1458,8 +1462,8 @@
 	transition-delay: 7.0s;
 }
 .ly-box52 {
-	width: 15%;
-	height: 550px;
+	width: 77%;
+	height: 500px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -1787,8 +1791,8 @@
 }
 
 .ly-box81 {
-	width: 15%;
-	height: 600px;
+	width: 77%;
+	height: 500px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
